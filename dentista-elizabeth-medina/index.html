@@ -1,357 +1,200 @@
 <!DOCTYPE html>
 <html lang="es-MX">
 <head>
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <title>Dra. Elizabeth Medina, Odontopediatra en San Salvador Atenco</title>
- <meta name="description" content="Odontopediatría en Atenco para bebés, niños y adolescentes. La Dra. Elizabeth Medina, certificada por el CMOP, atiende en Callejón de Las Huertas 536. 4.7 en Google. Tel. 55 2055 7257.">
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Dentist","name":"Dra. Elizabeth Medina, Odontopediatra","url":"https://redentor100.github.io/consorcio-vs-mockup/dentista-elizabeth-medina/","telephone":"+525520557257","email":"consultorio@draelizabethodontopediatra.com","image":"https://redentor100.github.io/consorcio-vs-mockup/dentista-elizabeth-medina/img/hero-nino.jpg","address":{"@type":"PostalAddress","streetAddress":"Callejón de Las Huertas 536","addressLocality":"San Salvador Atenco","postalCode":"56300","addressRegion":"Estado de México","addressCountry":"MX"},"geo":{"@type":"GeoCoordinates","latitude":19.548297,"longitude":-98.918471},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"13:00","closes":"19:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"13:00","closes":"16:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.7","reviewCount":"22"}}
-  </script>
-  <style>
-    :root{
-      --mint:#3AA89A; --mint-s:#E6F6F3; --mint-d:#1F4E4A;
-      --coral:#FF8A6A; --coral-d:#E56A48; --cream:#FFF9F3;
-      --ink:#24302F; --muted:#5B6B69; --white:#fff; --gold:#E8C27A;
-    }
-    *{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth}
-    body{font-family:Nunito,system-ui,sans-serif;color:var(--ink);background:var(--cream);line-height:1.65;font-size:1.05rem}
-    h1,h2,h3,.logo,.step-n{font-family:Fredoka,sans-serif;line-height:1.15;font-weight:600}
-    a{color:var(--mint-d)}
-    img{max-width:100%;display:block}
-    .wrap{width:min(1140px,calc(100% - 32px));margin-inline:auto}
-    .skip{position:absolute;left:-999px;top:8px;background:#000;color:#fff;padding:8px 12px;z-index:20}
-    .skip:focus{left:8px}
-    .topbar{background:var(--mint-d);color:#fff;font-size:.88rem;padding:8px 0}
-    .topbar .wrap{display:flex;gap:18px;flex-wrap:wrap;justify-content:space-between}
-    .topbar a{color:#fff;text-decoration:none}
-    header{position:sticky;top:0;z-index:30;background:rgba(255,249,243,.92);backdrop-filter:blur(10px);border-bottom:1px solid #efe4d6}
-    header .wrap{display:flex;align-items:center;justify-content:space-between;min-height:72px;gap:16px}
-    .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--mint-d);font-size:1.15rem}
-    .mark{width:42px;height:42px;border-radius:50%;background:var(--mint);color:#fff;display:grid;place-items:center;font-size:1.4rem;box-shadow:0 6px 0 #2d8b7f}
-    nav{display:flex;align-items:center;gap:22px}
-    nav a{text-decoration:none;color:var(--mint-d);font-weight:700;font-size:.95rem}
-    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:999px;padding:13px 22px;font-weight:800;text-decoration:none;border:0;cursor:pointer;transition:.2s transform,.2s background}
-    .btn:hover{transform:translateY(-1px)}
-    .btn-coral{background:var(--coral);color:#fff}
-    .btn-coral:hover{background:var(--coral-d)}
-    .btn-mint{background:var(--mint);color:#fff}
-    .btn-ghost{background:#fff;color:var(--mint-d);box-shadow:0 0 0 2px #d7efe9}
-    .menu-btn{display:none;background:none;border:0;font-size:1.6rem;cursor:pointer;color:var(--mint-d)}
-    .hero{padding:36px 0 64px;position:relative;overflow:hidden}
-    .blob{position:absolute;border-radius:50%;filter:blur(0);z-index:0;pointer-events:none}
-    .blob-a{width:420px;height:420px;background:#d8f3ee;top:-80px;right:-80px}
-    .blob-b{width:260px;height:260px;background:#ffe3d8;bottom:20px;left:-80px}
-    .hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}
-    .eyebrow{display:inline-block;background:var(--mint-s);color:var(--mint-d);padding:6px 14px;border-radius:999px;font-weight:800;font-size:.86rem;margin-bottom:16px}
-    .hero h1{font-size:clamp(2.1rem,5vw,3.5rem);color:var(--mint-d);margin-bottom:16px}
-    .hero h1 em{font-style:normal;color:var(--coral-d)}
-    .hero p{color:var(--muted);font-size:1.12rem;margin-bottom:26px;max-width:36rem}
-    .cta-row{display:flex;flex-wrap:wrap;gap:12px}
-    .collage{position:relative;min-height:460px}
-    .collage .p1{width:72%;border-radius:36px 36px 80px 36px;aspect-ratio:4/5;object-fit:cover;box-shadow:0 24px 50px rgba(31,78,74,.18)}
-    .collage .p2{position:absolute;right:0;bottom:18px;width:48%;border-radius:28px;aspect-ratio:1;object-fit:cover;border:8px solid var(--cream);box-shadow:0 16px 30px rgba(31,78,74,.16)}
-    .rating-chip{position:absolute;left:8%;bottom:8px;background:#fff;border-radius:18px;padding:12px 16px;box-shadow:0 10px 30px rgba(0,0,0,.08);font-weight:800;color:var(--mint-d)}
-    .rating-chip b{display:block;font-family:Fredoka,sans-serif;font-size:1.35rem;color:var(--coral-d)}
-    .creds{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:-20px;position:relative;z-index:2}
-    .cred{background:#fff;border-radius:20px;padding:18px 16px;text-align:center;box-shadow:0 10px 28px rgba(31,78,74,.07)}
-    .cred strong{display:block;color:var(--mint-d)}
-    section{padding:76px 0}
-    .kicker{color:var(--coral-d);font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:.78rem;margin-bottom:8px}
-    h2{font-size:clamp(1.8rem,3vw,2.5rem);color:var(--mint-d);margin-bottom:12px}
-    .lead{color:var(--muted);max-width:38rem}
-    .services{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;margin-top:36px;align-items:stretch}
-    .svc-list{display:grid;gap:14px}
-    .svc{display:grid;grid-template-columns:auto 1fr;gap:14px;background:#fff;border-radius:22px;padding:18px;align-items:start}
-    .ico{width:54px;height:54px;border-radius:16px;background:var(--mint-s);display:grid;place-items:center;font-size:1.4rem}
-    .svc h3{font-size:1.15rem;margin-bottom:4px;color:var(--mint-d)}
-    .photo-stack img{width:100%;border-radius:28px;aspect-ratio:4/5;object-fit:cover}
-    .photo-stack{display:grid;gap:14px}
-    .photo-stack img:last-child{aspect-ratio:16/9}
-    .steps{background:#fff}
-    .step-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:32px}
-    .step{background:var(--cream);border-radius:24px;padding:28px 22px}
-    .step-n{width:44px;height:44px;border-radius:50%;background:var(--mint);color:#fff;display:grid;place-items:center;margin-bottom:14px}
-    .about{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px;align-items:center}
-    .about img{border-radius:32px;width:100%;aspect-ratio:4/3;object-fit:cover}
-    .about ul{margin:18px 0 0;padding:0;list-style:none}
-    .about li{padding:8px 0 8px 32px;position:relative;font-weight:700}
-    .about li:before{content:"";position:absolute;left:0;top:14px;width:16px;height:16px;border-radius:50%;background:var(--mint)}
-    .reviews{background:var(--mint-s)}
-    .rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
-    .rev{background:#fff;border-radius:24px;padding:22px;box-shadow:0 8px 24px rgba(31,78,74,.06)}
-    .stars{color:#E2A325;letter-spacing:2px;margin-bottom:8px}
-    .rev p{font-style:italic;margin-bottom:14px}
-    .rev small{color:var(--muted)}
-    .faq-wrap{max-width:800px;margin:28px auto 0}
-    details{background:#fff;border-radius:18px;margin-bottom:10px;border:1px solid #efe4d6}
-    summary{cursor:pointer;padding:16px 52px 16px 20px;font-weight:800;list-style:none;position:relative;color:var(--mint-d)}
-    summary::-webkit-details-marker{display:none}
-    summary:after{content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);color:var(--coral);font-size:1.4rem}
-    details[open] summary:after{content:"–"}
-    details p{padding:0 20px 16px;color:var(--muted)}
-    .visit{display:grid;grid-template-columns:1fr 1.15fr;gap:28px}
-    .panel{background:#fff;border-radius:24px;padding:26px}
-    table{width:100%;border-collapse:collapse;margin:12px 0 18px}
-    td{padding:8px 0;border-bottom:1px solid #efe4d6}
-    iframe{width:100%;height:100%;min-height:360px;border:0;border-radius:24px}
-    .cta-band{background:var(--mint-d);color:#fff;text-align:center}
-    .cta-band h2{color:#fff}
-    .cta-band p{opacity:.85;margin:8px 0 22px}
-    footer{background:#163734;color:#c9dedb;text-align:center;padding:28px 16px;font-size:.92rem}
-    footer small{display:block;margin-top:6px;opacity:.75}
-    .wa{position:fixed;right:16px;bottom:16px;width:58px;height:58px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.25);z-index:40;font-size:1.6rem}
-    .cap{font-size:.78rem;color:var(--muted);margin-top:8px}
-    @media(max-width:860px){
-      .menu-btn{display:block}
-      nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--cream);flex-direction:column;align-items:flex-start;padding:12px 20px 20px;gap:12px;border-bottom:1px solid #efe4d6}
-      nav.open{display:flex}
-      .hero .wrap,.services,.step-grid,.about,.rev-grid,.visit,.creds{grid-template-columns:1fr}
-      .collage{min-height:0}
-      .collage .p1{width:100%}
-      .collage .p2{width:42%;bottom:-8px}
-      section{padding:56px 0}
-    }
-  .wa svg{width:32px;height:32px;display:block}
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dra. Elizabeth Medina, Odontopediatra en San Salvador Atenco</title>
+<meta name="description" content="Odontopediatría en Atenco para bebés, niños y adolescentes. La Dra. Elizabeth Medina, certificada por el CMOP, atiende en Callejón de Las Huertas 536. 4.7 en Google. Tel. 55 2055 7257.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dentist", "name": "Dra. Elizabeth Medina, Odontopediatra", "url": "https://redentor100.github.io/consorcio-vs-mockup/dentista-elizabeth-medina/", "image": "https://redentor100.github.io/consorcio-vs-mockup/dentista-elizabeth-medina/img/hero-nino.jpg", "telephone": "+525520557257", "email": "consultorio@draelizabethodontopediatra.com", "address": {"@type": "PostalAddress", "streetAddress": "Callejón de Las Huertas 536", "addressLocality": "San Salvador Atenco", "addressRegion": "Edo. Méx.", "postalCode": "56300", "addressCountry": "MX"}, "geo": {"@type": "GeoCoordinates", "latitude": 19.548297, "longitude": -98.918471}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "13:00", "closes": "19:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "13:00", "closes": "16:00"}], "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "22"}, "hasMap": "https://www.google.com/maps?q=19.548297,-98.918471"}</script>
+<style>
+:root{--p:#24302F;--a:#E8C27A;--l:#FFF9F3;--d:#24302F}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;color:var(--d);line-height:1.65;background:#fff}
+h1,h2,h3,h4{font-family:'Poppins',sans-serif;line-height:1.15;font-weight:800}
+a{color:inherit}img{max-width:100%;display:block}
+.w{max-width:1180px;margin:auto;padding:0 20px}
+header{background:#fff;position:sticky;top:0;z-index:50;box-shadow:0 2px 12px rgba(0,0,0,.06)}
+.header-in{display:flex;align-items:center;gap:16px;min-height:68px;padding:10px 20px}
+.logo{font-family:'Poppins',sans-serif;font-weight:800;font-size:1.08rem;color:var(--p);text-decoration:none;line-height:1.2}
+.logo small{display:block;font-family:Inter,sans-serif;font-weight:600;font-size:.65rem;letter-spacing:.08em;text-transform:uppercase;color:#567}
+nav.main{margin-left:auto;display:flex;align-items:center;gap:2px;flex-wrap:wrap}
+nav.main a{text-decoration:none;font-weight:600;font-size:.92rem;padding:10px 12px;border-radius:8px;min-height:44px;display:inline-flex;align-items:center}
+nav.main a:hover{background:var(--l);color:var(--p)}
+.header-call{background:var(--a)!important;color:#fff!important;border-radius:10px;padding:9px 16px!important;margin-left:8px}
+.header-call:hover{filter:brightness(1.05)}
+@media(max-width:860px){nav.main a:not(.header-call){display:none}.logo small{display:none}}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 22px;border-radius:10px;font-weight:700;text-decoration:none;border:1px solid transparent;cursor:pointer;font-size:1rem;font-family:inherit;transition:transform .15s ease,background .15s ease}
+.btn:active{transform:scale(.98)}
+.btn svg{width:18px;height:18px;flex:none}
+.b1{background:var(--a);color:#fff}
+.b2{background:transparent;border-color:rgba(255,255,255,.55);color:#fff}
+.b3{background:transparent;border-color:var(--a);color:var(--d)}
+.b4{background:var(--p);color:#fff}
+.hero{background:linear-gradient(160deg,var(--p) 0%,color-mix(in srgb,var(--p) 80%,var(--d)) 100%);color:#fff;padding:56px 0 64px}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:7px 14px;font-size:.85rem;font-weight:600;margin-bottom:18px}
+.hero .stars{color:#f2b63d;letter-spacing:1px}
+.hero h1{font-size:clamp(1.9rem,4.6vw,3.1rem);margin-bottom:14px;max-width:18em}
+.hero-lead{font-size:1.08rem;color:rgba(255,255,255,.9);max-width:36em;margin-bottom:26px}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.hero-points{display:flex;gap:18px;flex-wrap:wrap;font-size:.92rem;color:rgba(255,255,255,.88)}
+.hero-points span{display:inline-flex;align-items:center;gap:7px}
+.hero-photo{position:relative}
+.hero-photo img{width:100%;height:480px;object-fit:cover;object-position:center;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,.25)}
+.rating-card{position:absolute;left:-14px;bottom:22px;background:#fff;color:var(--d);border-radius:14px;box-shadow:0 16px 36px rgba(0,0,0,.22);padding:14px 18px;display:flex;align-items:center;gap:14px;max-width:calc(100% - 16px)}
+.rating-card .score{font-family:'Poppins',sans-serif;font-size:2.2rem;line-height:1;color:var(--p);font-weight:800}
+.rating-card .rc-stars{color:#f2b63d;letter-spacing:1px}
+.rating-card p{font-size:.85rem;color:#567;line-height:1.4}
+@media(max-width:920px){.hero-grid{grid-template-columns:1fr}.hero-photo img{height:360px}.rating-card{left:12px}}
+.trust{background:var(--l);padding:36px 0}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;text-align:center}
+.trust-item strong{display:block;font-family:'Poppins',sans-serif;font-size:1.6rem;color:var(--p);font-weight:800}
+.trust-item span{display:block;font-size:.88rem;color:#567;margin-top:4px}
+@media(max-width:720px){.trust-grid{grid-template-columns:1fr 1fr}}
+section{padding:72px 0}
+.sec-head{margin-bottom:28px}
+.rule{width:44px;height:3px;background:var(--a);border-radius:2px;margin-bottom:14px}
+h2{font-size:clamp(1.7rem,3vw,2.1rem);color:var(--p);margin-bottom:10px}
+.sub{color:#567;max-width:40em}
+.alt{background:var(--l)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.serv-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+.serv-card,.card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 8px 22px rgba(20,32,43,.07);border:1px solid #eee}
+.serv-card img{width:100%;height:200px;object-fit:cover}
+.serv-body,.card-body{padding:22px 22px 24px}
+.serv-tag{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--a);margin-bottom:6px}
+.serv-card h3,.card h3{margin:6px 0 8px;color:var(--d);font-size:1.2rem}
+.serv-list{list-style:none;margin:12px 0 18px}
+.serv-list li{padding:5px 0 5px 1.3em;position:relative}
+.serv-list li:before{content:"✓";position:absolute;left:0;color:var(--a);font-weight:700}
+.card{padding:0}
+.card.pad,.rev-card,.why-card{padding:24px}
+.card .i{font-size:2rem;padding:22px 22px 0}
+.card h3{padding:0 22px}
+.card>p,.card .txt{padding:0 22px 22px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+@media(max-width:820px){.about{grid-template-columns:1fr}}
+.about img{width:100%;height:360px;object-fit:cover;border-radius:18px}
+.checks{margin-top:12px;color:var(--d)}
+.st{color:#f5a623;letter-spacing:1px}
+.rev-meta{display:block;margin-top:10px;font-size:.88rem;color:#567;font-weight:600}
+.rev-summary{background:#fff;border-radius:16px;box-shadow:0 8px 22px rgba(20,32,43,.07);padding:22px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-bottom:22px}
+.rev-summary .big{font-family:'Poppins',sans-serif;font-size:3rem;line-height:1;color:var(--p);font-weight:800}
+.fw{max-width:860px;margin:auto;padding:0 20px}
+#faq h2,#faq .sub{text-align:center}
+.fq{background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 4px 14px rgba(0,0,0,.06);border-left:4px solid var(--a)}
+.fq summary{cursor:pointer;padding:18px 48px 18px 20px;font-weight:600;list-style:none;position:relative}
+.fq summary::-webkit-details-marker{display:none}
+.fq summary:after{content:"+";position:absolute;right:20px;top:50%;transform:translateY(-50%);font-size:1.5rem;color:var(--a)}
+.fq[open] summary:after{content:"–"}
+.fq p{padding:0 20px 18px;color:#445}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+@media(max-width:920px){.contact-grid{grid-template-columns:1fr}}
+.info-card{background:var(--l);border-radius:16px;padding:8px 22px}
+.info-row{display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #e6e6e6}
+.info-row:last-child{border-bottom:0}
+.info-row svg{width:22px;height:22px;flex:none;color:var(--a);margin-top:2px}
+.info-row h3{font-size:.95rem;margin-bottom:4px;color:var(--p)}
+.map-box{margin-top:16px}
+iframe{width:100%;height:280px;border:0;border-radius:14px}
+.consulta{background:var(--l);border-radius:16px;padding:26px}
+.consulta h3{margin-bottom:6px}
+.field{margin:14px 0}
+.field label{display:block;font-weight:600;font-size:.9rem;margin-bottom:6px}
+.field input,.field select,.field textarea{width:100%;padding:12px 14px;border:1px solid #d8d8d8;border-radius:10px;font:inherit;background:#fff;color:var(--d)}
+.field textarea{min-height:110px;resize:vertical}
+.form-note{font-size:.85rem;color:#567;margin-top:12px;text-align:center}
+.cta{background:var(--p);color:#fff;text-align:center}
+.cta h2{color:#fff}.cta .sub{color:#eef;margin:0 auto 22px}
+footer{background:var(--d);color:#c5d0d8;padding:40px 0 22px;font-size:.92rem}
+.foot-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:22px}
+@media(max-width:720px){.foot-grid{grid-template-columns:1fr}}
+.foot-grid strong{display:block;color:#fff;margin-bottom:8px;font-family:'Poppins',sans-serif}
+.foot-grid a{color:#c5d0d8;text-decoration:none}
+.foot-grid a:hover{color:#fff}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.12);padding-top:16px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:.85rem;color:#9ab}
+.wa{position:fixed;right:18px;bottom:18px;background:#25d366;color:#fff;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.3);z-index:60}
+.wa svg{width:32px;height:32px}
+.share-toast{position:fixed;left:50%;bottom:92px;transform:translateX(-50%) translateY(8px);z-index:61;background:var(--d);color:#fff;font-size:.9rem;padding:12px 18px;border-radius:10px;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s}
+.share-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.note{margin-top:16px;font-size:.9rem}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}.share-toast{transition:none}}
 </style>
 </head>
 <body>
- <a class="skip" href="#contenido">Saltar al contenido</a>
- <div class="topbar"><div class="wrap">
- <span>San Salvador Atenco · Callejón de Las Huertas 536</span>
- <a href="tel:+525520557257">Tel. 55 2055 7257</a>
- </div></div>
- <header>
- <div class="wrap">
- <a class="logo" href="#inicio"><span class="mark">◡</span> Dra. Elizabeth Medina</a>
- <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú">☰</button>
- <nav id="nav">
- <a href="#servicios">Servicios</a>
- <a href="#nosotros">La doctora</a>
- <a href="#resenas">Reseñas</a>
- <a href="#faq">Preguntas</a>
- <a href="#visita">Ubicación</a>
- <a class="btn btn-coral" href="https://wa.me/525520557257?text=Hola%2C%20quiero%20agendar%20una%20cita%20de%20odontopediatr%C3%ADa">Agendar cita</a>
- </nav>
- </div>
- </header>
- <main id="contenido">
- <section class="hero" id="inicio">
- <div class="blob blob-a"></div>
- <div class="blob blob-b"></div>
- <div class="wrap">
- <div>
- <span class="eyebrow">Odontopediatra en Atenco · 4.7 ★ en Google</span>
- <h1>Sonrisas tranquilas para <em>los más pequeños</em></h1>
- <p>La Dra. Elizabeth Medina atiende a bebés, niños y adolescentes. Certificada por el Consejo Mexicano de Odontología Pediátrica y formada en el Instituto Nacional de Pediatría.</p>
- <div class="cta-row">
- <a class="btn btn-coral" href="https://wa.me/525520557257?text=Hola%2C%20quiero%20agendar%20una%20cita%20de%20odontopediatr%C3%ADa">Agendar por WhatsApp</a>
- <a class="btn btn-ghost" href="tel:+525520557257">Llamar al 55 2055 7257</a>
- </div>
- </div>
- <div class="collage">
- <img class="p1" src="img/hero-nino.jpg" alt="Niño corriendo al aire libre, foto de stock que evoca la alegría infantil">
- <img class="p2" src="img/hero-nina.jpg" alt="Niño sonriendo al aire libre, foto de stock">
- <div class="rating-chip"><b>4.7 ★</b>22 reseñas en Google</div>
- </div>
- </div>
- </section>
- <div class="wrap creds">
- <div class="cred"><strong>Certificada CMOP</strong>Consejo Mexicano de Odontología Pediátrica</div>
- <div class="cred"><strong>INP</strong>Formación en el Instituto Nacional de Pediatría</div>
- <div class="cred"><strong>Lun–vie 13–19 h</strong>Sábados 13:00 a 16:00 · Domingo cerrado</div>
- </div>
- <section id="servicios">
- <div class="wrap">
- <p class="kicker">Atención infantil</p>
- <h2>Cuidado dental pensado para niñas y niños</h2>
- <p class="lead">El consultorio se especializa en odontopediatría: prevención, tratamientos y acompañamiento para que la visita no sea un momento de miedo.</p>
- <div class="services">
- <div class="svc-list">
- <article class="svc"><div class="ico">🍼</div><div><h3>Bebés, niños y adolescentes</h3><p>Atención desde los primeros dientes hasta la adolescencia, con un ritmo adaptado a cada edad.</p></div></article>
- <article class="svc"><div class="ico">🪥</div><div><h3>Prevención y revisiones</h3><p>Revisiones y prevención. </p></div></article>
- <article class="svc"><div class="ico">💙</div><div><h3>Necesidades especiales</h3><p>Atención especializada para pacientes con enfermedades sistémicas, labio y paladar hendido y niños con necesidades especiales, según la información publicada por el consultorio.</p></div></article>
- <article class="svc"><div class="ico">📍</div><div><h3>Dos puntos de atención</h3><p>Consultorio principal en Atenco y, según sus publicaciones, también en San Pablito Chiconcuac.</p></div></article>
- </div>
- <div class="photo-stack">
- <img src="img/juego.jpg" alt="Niña pequeña jugando con una cámara de juguete en un espacio colorido, foto de stock">
- <img src="img/instrumental.jpg" alt="Instrumental dental de colores sobre una bandeja, foto de stock de un consultorio">
- <p class="cap">Fotos de stock de referencia; no son del consultorio de Atenco.</p>
- </div>
- </div>
- </div>
- </section>
- <section class="steps" id="cita">
- <div class="wrap">
- <p class="kicker">Primera visita</p>
- <h2>Así preparamos una cita tranquila</h2>
- <div class="step-grid">
- <div class="step"><div class="step-n">1</div><h3>Agenda con anticipación</h3><p>Escríbenos por WhatsApp o llama al 55 2055 7257 para elegir un horario en la tarde, cuando el consultorio está abierto.</p></div>
- <div class="step"><div class="step-n">2</div><h3>Conoce a la doctora</h3><p>El consultorio se especializa en odontopediatría.</p></div>
- <div class="step"><div class="step-n">3</div><h3>Sal con un plan claro</h3><p>Pregunta en la cita el plan de tratamiento y resuelve dudas antes de avanzar.</p></div>
- </div>
- </div>
- </section>
- <section id="nosotros">
- <div class="wrap about">
- <img src="img/consultorio.jpg" alt="Interior de un consultorio dental moderno de referencia, foto de stock; no es el consultorio de Atenco">
- <div>
- <p class="kicker">La doctora</p>
- <h2>Odontopediatría en Atenco</h2>
- <p>La Dra. Medina está certificada por el CMOP y se formó en el Instituto Nacional de Pediatría. El consultorio se presenta para bebés, niños y adolescentes.</p>
- <ul>
- <li>Enfoque en la confianza del niño, no solo en el procedimiento</li>
- <li>Explicación clara del plan de tratamiento</li>
- <li>Atención también para casos de mayor complejidad pediátrica</li>
- </ul>
- <p class="cap">La foto del consultorio es de stock y sirve como referencia visual.</p>
- </div>
- </div>
- </section>
- <section class="reviews" id="resenas">
- <div class="wrap">
- <h2>Reseñas</h2>
- <p class="lead">Calificación 4.7 de 5, con 22 reseñas.</p>
- <div class="rev-grid">
- <blockquote class="rev">
- <div class="stars">★★★★★</div>
- <p>“Fue mi primera opción para mi hija, y me gustó mucho la paciencia que le tuvo, ya que mi niña es difícil. La trató con mucho cariño, y también creo que en la zona tiene un precio accesible.”</p>
- <small>Reseña en Google · diciembre de 2025</small>
- </blockquote>
- <blockquote class="rev">
- <div class="stars">★★★★★</div>
- <p>“Muy buena doctora, sabe tratar bien a los niños. Con otro dentista no vimos avances en más de 6 meses y con la Doctora Elizabeth al mes ya se veía la mejoría. La recomiendo ampliamente.”</p>
- <small>Reseña en Google · agosto de 2025</small>
- </blockquote>
- <blockquote class="rev">
- <div class="stars">★★★★★</div>
- <p>“100% recomiendo, es muy profesional y paciente. En mi experiencia ha tratado con mucho cariño a mi bebé, que venía con una mala experiencia, y ha logrado que mi niña se sienta segura.”</p>
- <small>Reseña en Google · agosto de 2025</small>
- </blockquote>
- </div>
- </div>
- </section>
- <p class="lead"><a href="https://www.google.com/maps?q=19.548297,-98.918471">Ver en Google Maps →</a></p>
-<section id="faq">
- <div class="wrap">
- <p class="kicker" style="text-align:center">Dudas frecuentes</p>
- <h2 style="text-align:center">Preguntas antes de la cita</h2>
- <div class="faq-wrap">
- <details><summary>¿Cuál es el horario del consultorio en Atenco?</summary>
- <p>Lunes a viernes de 13:00 a 19:00 y sábados de 13:00 a 16:00. Domingo cerrado.</p>
- </details>
- <details><summary>¿A qué edad pueden llevar a un bebé?</summary>
- <p>Atendemos a bebés, niños y adolescentes. La primera revisión suele ser con la erupción de los primeros dientes o alrededor del primer año.</p>
- </details>
- <details><summary>¿Atienden niños con necesidades especiales?</summary><p>Sí. En sus publicaciones el consultorio señala atención especializada para pacientes con enfermedades sistémicas, labio y paladar hendido y niños con necesidades especiales.</p></details>
- <details><summary>¿Cómo agendo una cita?</summary><p>Por WhatsApp o llamando al 55 2055 7257. También puedes escribir a consultorio@draelizabethodontopediatra.com.</p></details>
- <details><summary>¿Tienen otro consultorio además de Atenco?</summary>
- <p>También atendemos en Calle Ejido Sur s/n, San Pablito Chiconcuac, al 55 4029 9642.</p>
- </details>
- <details><summary>¿Dónde se ubican en Atenco?</summary><p>Callejón de Las Huertas 536, San Salvador Atenco, C.P. 56300, Estado de México. Abajo está el mapa y el botón para abrir la ruta.</p></details>
- </div>
- </div>
- </section>
- <section id="visita">
- <div class="wrap">
- <p class="kicker">Visítanos</p>
- <h2>Consultorio en San Salvador Atenco</h2>
- <div class="visit" style="margin-top:28px">
- <div class="panel">
- <p><strong>Dirección</strong><br>Callejón de Las Huertas 536, San Salvador Atenco, 56300, Méx.</p>
- <p style="margin-top:12px"><strong>Teléfono</strong><br><a href="tel:+525520557257">55 2055 7257</a></p>
- <p style="margin-top:12px"><strong>Correo</strong><br><a href="mailto:consultorio@draelizabethodontopediatra.com">consultorio@draelizabethodontopediatra.com</a></p>
- <p style="margin-top:12px"><strong>Horario publicado en Google</strong></p>
- <table>
- <tr><td>Lunes a viernes</td><td>13:00 – 19:00</td></tr>
- <tr><td>Sábado</td><td>13:00 – 16:00</td></tr>
- <tr><td>Domingo</td><td>Cerrado</td></tr>
- </table>
- <p style="margin-bottom:16px"><strong>También en Chiconcuac</strong><br>Calle Ejido Sur s/n, San Pablito Chiconcuac · 55 4029 9642 (dato de sus publicaciones en Facebook).</p>
- <div class="cta-row">
- <a class="btn btn-mint" href="https://wa.me/525520557257?text=Hola%2C%20quiero%20agendar%20una%20cita">WhatsApp</a>
- <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&destination=19.548297,-98.918471">Cómo llegar</a>
- </div>
- </div>
- <iframe loading="lazy" title="Mapa del consultorio de la Dra. Elizabeth Medina en Atenco" src="https://maps.google.com/maps?q=19.548297,-98.918471&z=16&output=embed"></iframe>
- </div>
- </div>
- </section>
- <section class="cta-band">
- <div class="wrap">
- <h2>Agenda la revisión de tu hija o hijo</h2>
- <p>Un espacio pensado para que los pequeños se sientan seguros.</p>
- <a class="btn btn-coral" href="https://wa.me/525520557257?text=Hola%2C%20quiero%20agendar%20una%20cita%20de%20odontopediatr%C3%ADa">Escribir por WhatsApp</a>
- </div>
- </section>
- </main>
- <footer>© 2026 Dra. Elizabeth Medina, Odontopediatra · Callejón de Las Huertas 536, San Salvador Atenco
-\1
- <a class="wa" href="https://wa.me/525520557257?text=Hola%2C%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M17.47 14.38c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.13-.42-2.16-1.33-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.42.12-.55.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.29s.99 2.65 1.13 2.83c.14.18 1.95 2.98 4.73 4.18 1.76.76 2.11.61 2.49.57.38-.04 1.6-.65 1.83-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32zM12.04 21.8h-.01c-1.81 0-3.6-.49-5.16-1.41L3.4 21.2l.83-3.39A10.02 10.02 0 0 1 1.96 12C1.96 6.48 6.45 2 12.03 2c2.67 0 5.18 1.04 7.07 2.93A9.92 9.92 0 0 1 22.1 12c0 5.52-4.49 10-10.06 10zM20.52 3.45A11.9 11.9 0 0 0 12.03 0C5.35 0 .04 5.3.04 11.96c0 2.11.55 4.17 1.6 5.99L0 24l6.19-1.62A12.04 12.04 0 0 0 12.03 24h.01C18.7 24 24 18.7 24 12.04c0-3.2-1.25-6.21-3.48-8.59z"/></svg></a>
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "¿Cuál es el horario del consultorio en Atenco?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Lunes a viernes de 13:00 a 19:00 y sábados de 13:00 a 16:00. Domingo cerrado."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "¿A qué edad pueden llevar a un bebé?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Atendemos a bebés, niños y adolescentes. La primera revisión suele ser con la erupción de los primeros dientes o alrededor del primer año."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "¿Atienden niños con necesidades especiales?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sí. En sus publicaciones el consultorio señala atención especializada para pacientes con enfermedades sistémicas, labio y paladar hendido y niños con necesidades especiales."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "¿Cómo agendo una cita?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Por WhatsApp o llamando al 55 2055 7257. También puedes escribir a consultorio@draelizabethodontopediatra.com."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "¿Tienen otro consultorio además de Atenco?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "También atendemos en Calle Ejido Sur s/n, San Pablito Chiconcuac, al 55 4029 9642."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "¿Dónde se ubican en Atenco?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Callejón de Las Huertas 536, San Salvador Atenco, C.P. 56300, Estado de México. Abajo está el mapa y el botón para abrir la ruta."
-      }
-    }
-  ]
-}
+<header><div class="w header-in"><a class="logo" href="#inicio">◡ Dra. Elizabeth Medina<small>San Salvador Atenco</small></a>
+<nav class="main"><a href="#servicios">Servicios</a><a href="#nosotros">Nosotros</a><a href="#resenas">Reseñas</a><a href="#faq">Preguntas</a><a href="#contacto">Contacto</a><a class="header-call" href="tel:+525520557257">55 2055 7257</a></nav></div></header>
+<div class="hero" id="inicio"><div class="w hero-grid"><div>
+<span class="hero-eyebrow"><span class="stars" aria-hidden="true">★★★★★</span> 4.7 en Google · 22 reseñas</span>
+<h1>Sonrisas tranquilas para los más pequeños</h1>
+<p class="hero-lead">La Dra. Elizabeth Medina atiende a bebés, niños y adolescentes. Certificada por el Consejo Mexicano de Odontología Pediátrica y formada en el Instituto Nacional de Pediatría.</p>
+<div class="hero-ctas"><a class="btn b1" href="https://wa.me/525520557257?text=Hola%2C%20quiero%20agendar%20una%20cita%20de%20odontopediatr%C3%ADa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.2 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.33 1.9.61 2.8a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.28 1.84.48 2.8.61A2 2 0 0 1 22 16.9z"/></svg> WhatsApp: 55 2055 7257</a><a class="btn b2" href="tel:+525520557257">Llamar</a><button type="button" class="btn b2" data-share>Compartir este sitio</button></div>
+
+</div>
+<div class="hero-photo"><img src="img/hero-nino.jpg" alt="Niño corriendo al aire libre, foto de stock que evoca la alegría infantil"><div class="rating-card" aria-label="Calificación en Google: 4.7 de 5, con 22 reseñas"><span class="score">4.7</span><div><span class="rc-stars" aria-hidden="true">★★★★★</span><p><strong>22 reseñas en Google</strong></p></div></div></div>
+</div></div>
+<div class="trust"><div class="w trust-grid"><div class="trust-item"><strong>4.7 ★</strong><span>Calificación en Google</span></div><div class="trust-item"><strong>22</strong><span>Reseñas de clientes</span></div></div></div>
+<section id="servicios"><div class="w"><div class="sec-head"><div class="rule"></div><h2>Servicios</h2><p class="sub">El consultorio se especializa en odontopediatría: prevención, tratamientos y acompañamiento para que la visita no sea un momento de miedo.</p></div><div class="serv-grid"><article class="serv-card"><img src="img/consultorio.jpg" alt="" loading="lazy"><div class="serv-body"><h3>Bebés, niños y adolescentes</h3><p>Atención desde los primeros dientes hasta la adolescencia, con un ritmo adaptado a cada edad.</p><a class="btn b3" href="#contacto">Consultar</a></div></article><article class="serv-card"><img src="img/instrumental.jpg" alt="" loading="lazy"><div class="serv-body"><h3>Prevención y revisiones</h3><p>Revisiones y prevención.</p><a class="btn b3" href="#contacto">Consultar</a></div></article><article class="serv-card"><img src="img/juego.jpg" alt="" loading="lazy"><div class="serv-body"><h3>Necesidades especiales</h3><p></p><a class="btn b3" href="#contacto">Consultar</a></div></article><article class="serv-card"><img src="img/hero-nina.jpg" alt="" loading="lazy"><div class="serv-body"><h3>Dos puntos de atención</h3><p>Consultorio principal en Atenco y, según sus publicaciones, también en San Pablito Chiconcuac.</p><a class="btn b3" href="#contacto">Consultar</a></div></article></div></div></section>
+<section id="nosotros" class="alt"><div class="w about"><img src="img/consultorio.jpg" alt="Interior de un consultorio dental moderno de referencia, foto de stock; no es el consultorio de Atenco" loading="lazy"><div><div class="sec-head"><div class="rule"></div><h2>Odontopediatría en Atenco</h2></div><p class="sub">La doctora</p><p>La Dra. Medina está certificada por el CMOP y se formó en el Instituto Nacional de Pediatría. El consultorio se presenta para bebés, niños y adolescentes.</p><p>La foto del consultorio es de stock y sirve como referencia visual.</p></div></div></section>
+<section id="resenas"><div class="w"><div class="sec-head"><div class="rule"></div><h2>Reseñas</h2></div><div class="rev-summary"><div style="display:flex;align-items:center;gap:16px"><span class="big">4.7</span><div><span class="st">★★★★★</span><p>22 reseñas en Google</p></div></div><a class="btn b4" href="https://www.google.com/maps?q=19.548297,-98.918471" target="_blank" rel="noopener">Ver opiniones en Google Maps</a></div><div class="grid"><div class="card pad"><p class="st">★★★★★</p><p>“Fue mi primera opción para mi hija, y me gustó mucho la paciencia que le tuvo, ya que mi niña es difícil. La trató con mucho cariño, y también creo que en la zona tiene un precio accesible.”</p><span class="rev-meta">Reseña en Google · diciembre de 2025</span></div><div class="card pad"><p class="st">★★★★★</p><p>“Muy buena doctora, sabe tratar bien a los niños. Con otro dentista no vimos avances en más de 6 meses y con la Doctora Elizabeth al mes ya se veía la mejoría. La recomiendo ampliamente.”</p><span class="rev-meta">Reseña en Google · agosto de 2025</span></div><div class="card pad"><p class="st">★★★★★</p><p>“100% recomiendo, es muy profesional y paciente. En mi experiencia ha tratado con mucho cariño a mi bebé, que venía con una mala experiencia, y ha logrado que mi niña se sienta segura.”</p><span class="rev-meta">Reseña en Google · agosto de 2025</span></div></div></div></section>
+<section id="faq" class="alt"><div class="fw"><div class="sec-head"><div class="rule" style="margin:0 auto 14px"></div><h2>Preguntas frecuentes</h2><p class="sub">Dudas frecuentes</p></div><details class="fq"><summary>¿Cuál es el horario del consultorio en Atenco?</summary><p>Lunes a viernes de 13:00 a 19:00 y sábados de 13:00 a 16:00. Domingo cerrado.</p></details><details class="fq"><summary>¿A qué edad pueden llevar a un bebé?</summary><p>Atendemos a bebés, niños y adolescentes. La primera revisión suele ser con la erupción de los primeros dientes o alrededor del primer año.</p></details><details class="fq"><summary>¿Atienden niños con necesidades especiales?</summary><p>Sí. En sus publicaciones el consultorio señala atención especializada para pacientes con enfermedades sistémicas, labio y paladar hendido y niños con necesidades especiales.</p></details><details class="fq"><summary>¿Cómo agendo una cita?</summary><p>Por WhatsApp o llamando al 55 2055 7257. También puedes escribir a consultorio@draelizabethodontopediatra.com.</p></details><details class="fq"><summary>¿Tienen otro consultorio además de Atenco?</summary><p>También atendemos en Calle Ejido Sur s/n, San Pablito Chiconcuac, al 55 4029 9642.</p></details><details class="fq"><summary>¿Dónde se ubican en Atenco?</summary><p>Callejón de Las Huertas 536, San Salvador Atenco, C.P. 56300, Estado de México. Abajo está el mapa y el botón para abrir la ruta.</p></details></div><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Cuál es el horario del consultorio en Atenco?", "acceptedAnswer": {"@type": "Answer", "text": "Lunes a viernes de 13:00 a 19:00 y sábados de 13:00 a 16:00. Domingo cerrado."}}, {"@type": "Question", "name": "¿A qué edad pueden llevar a un bebé?", "acceptedAnswer": {"@type": "Answer", "text": "Atendemos a bebés, niños y adolescentes. La primera revisión suele ser con la erupción de los primeros dientes o alrededor del primer año."}}, {"@type": "Question", "name": "¿Atienden niños con necesidades especiales?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. En sus publicaciones el consultorio señala atención especializada para pacientes con enfermedades sistémicas, labio y paladar hendido y niños con necesidades especiales."}}, {"@type": "Question", "name": "¿Cómo agendo una cita?", "acceptedAnswer": {"@type": "Answer", "text": "Por WhatsApp o llamando al 55 2055 7257. También puedes escribir a consultorio@draelizabethodontopediatra.com."}}, {"@type": "Question", "name": "¿Tienen otro consultorio además de Atenco?", "acceptedAnswer": {"@type": "Answer", "text": "También atendemos en Calle Ejido Sur s/n, San Pablito Chiconcuac, al 55 4029 9642."}}, {"@type": "Question", "name": "¿Dónde se ubican en Atenco?", "acceptedAnswer": {"@type": "Answer", "text": "Callejón de Las Huertas 536, San Salvador Atenco, C.P. 56300, Estado de México. Abajo está el mapa y el botón para abrir la ruta."}}]}</script></section>
+<section id="contacto"><div class="w">
+<div class="sec-head"><div class="rule"></div><h2>Contacto y ubicación</h2>
+<p class="sub">Visítanos o escríbenos. Estamos para atenderte.</p></div>
+<div class="contact-grid"><div><div class="info-card"><div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.2 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.33 1.9.61 2.8a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.28 1.84.48 2.8.61A2 2 0 0 1 22 16.9z"/></svg><div><h3>Teléfono</h3><p><a href="tel:+525520557257">55 2055 7257</a></p></div></div><div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-7.2 7-12a7 7 0 1 0-14 0c0 4.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.2"/></svg><div><h3>Dirección</h3><p>Callejón de Las Huertas 536, San Salvador Atenco, 56300, Méx.</p></div></div><div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><h3>Horario</h3><p>Lunes a viernes: 13:00 – 19:00 · Sábado: 13:00 – 16:00 · Domingo: Cerrado</p></div></div><div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg><div><h3>Correo</h3><p><a href="mailto:consultorio@draelizabethodontopediatra.com">consultorio@draelizabethodontopediatra.com</a></p></div></div></div><div class="map-box"><iframe loading="lazy" src="https://maps.google.com/maps?q=19.548297,-98.918471&z=16&output=embed" title="Mapa de Dra. Elizabeth Medina, Odontopediatra"></iframe></div><p class="note"><a href="https://www.google.com/maps?q=19.548297,-98.918471" target="_blank" rel="noopener">Abrir en Google Maps y ver cómo llegar →</a></p></div>
+<form class="consulta" id="consultaForm" data-wa="https://wa.me/525520557257?text=">
+<h3>Solicita información</h3>
+<p class="sub">Completa el formulario y te armamos el mensaje para WhatsApp.</p>
+<div class="field"><label for="f-nombre">Tu nombre</label><input id="f-nombre" name="nombre" required autocomplete="name"></div>
+<div class="field"><label for="f-area">¿Qué necesitas?</label><select id="f-area" name="area"><option>Bebés, niños y adolescentes</option><option>Prevención y revisiones</option><option>Necesidades especiales</option><option>Dos puntos de atención</option><option>Otra información</option></select></div>
+<div class="field"><label for="f-mensaje">Cuéntanos tu caso</label><textarea id="f-mensaje" name="mensaje" required placeholder="Describe brevemente lo que necesitas…"></textarea></div>
+<button type="submit" class="btn b4">Enviar por WhatsApp</button>
+<p class="form-note">Se abrirá WhatsApp con tu mensaje listo para enviar.</p>
+</form>
+</div></div></section>
+<section class="cta"><div class="w"><h2>Contáctanos</h2><p class="sub">Escríbenos por WhatsApp o llámanos. Estamos para atenderte.</p><a class="btn b1" href="https://wa.me/525520557257?text=Hola%2C%20quiero%20agendar%20una%20cita%20de%20odontopediatr%C3%ADa" target="_blank" rel="noopener">Agendar por WhatsApp</a></div></section>
+<footer><div class="w"><div class="foot-grid">
+<div><strong>Dra. Elizabeth Medina, Odontopediatra</strong><p>La doctora</p></div>
+<div><strong>Contacto</strong><p>55 2055 7257<br>Callejón de Las Huertas 536, San Salvador Atenco, 56300, Méx.</p></div>
+<div><strong>Enlaces</strong><p>
+<a href=#servicios>Servicios</a> · <a href="#resenas">Reseñas</a> · <a href="#contacto">Contacto</a>
+<br><a href="https://www.google.com/maps?q=19.548297,-98.918471" target=_blank rel=noopener>Ver en Google Maps</a>
+</p></div></div>
+<div class="foot-bottom"><span>© 2026 Dra. Elizabeth Medina, Odontopediatra · San Salvador Atenco</span><span>★ 4.7 en Google · 22 reseñas</span></div>
+</div></footer>
+<a class="wa" href="https://wa.me/525520557257?text=Hola%2C%20quiero%20agendar%20una%20cita%20de%20odontopediatr%C3%ADa" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M17.47 14.38c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.13-.42-2.16-1.33-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.42.12-.55.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.29s.99 2.65 1.13 2.83c.14.18 1.95 2.98 4.73 4.18 1.76.76 2.11.61 2.49.57.38-.04 1.6-.65 1.83-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32zM12.04 21.8h-.01c-1.81 0-3.6-.49-5.16-1.41L3.4 21.2l.83-3.39A10.02 10.02 0 0 1 1.96 12C1.96 6.48 6.45 2 12.03 2c2.67 0 5.18 1.04 7.07 2.93A9.92 9.92 0 0 1 22.1 12c0 5.52-4.49 10-10.06 10zM20.52 3.45A11.9 11.9 0 0 0 12.03 0C5.35 0 .04 5.3.04 11.96c0 2.11.55 4.17 1.6 5.99L0 24l6.19-1.62A12.04 12.04 0 0 0 12.03 24h.01C18.7 24 24 18.7 24 12.04c0-3.2-1.25-6.21-3.48-8.59z"/></svg></a>
+<div id="shareToast" class="share-toast" role="status">Enlace copiado. Ya puedes compartirlo donde quieras.</div>
+
+<script>
+(function(){
+  var toast=document.getElementById('shareToast');
+  var tmr=null;
+  function showToast(msg){ if(!toast)return; if(msg)toast.textContent=msg; toast.classList.add('show'); clearTimeout(tmr); tmr=setTimeout(function(){toast.classList.remove('show');},4200); }
+  function copyLink(url){
+    if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(function(){showToast();}).catch(function(){showToast('Copia este enlace: '+url);}); }
+    else { showToast('Copia este enlace: '+url); }
+  }
+  function shareSite(){
+    var data={title:document.title,text:document.title,url:location.href};
+    if(navigator.share){ navigator.share(data).catch(function(err){ if(!err||err.name!=='AbortError') copyLink(data.url); }); }
+    else copyLink(data.url);
+  }
+  document.querySelectorAll('[data-share]').forEach(function(b){ b.addEventListener('click', shareSite); });
+  var form=document.getElementById('consultaForm');
+  if(form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      var nombre=(document.getElementById('f-nombre').value||'').trim();
+      var area=(document.getElementById('f-area')||{}).value||'';
+      var mensaje=(document.getElementById('f-mensaje').value||'').trim();
+      var texto='Hola, soy '+nombre+'. Necesito ayuda con: '+area+'.\n\n'+mensaje;
+      var base=form.getAttribute('data-wa')||'';
+      if(base){ location.href=base+encodeURIComponent(texto); }
+    });
+  }
+})();
 </script>
-  <script>
-    const btn=document.getElementById('menuBtn'), nav=document.getElementById('nav');
-    btn.addEventListener('click',()=>{const open=nav.classList.toggle('open');btn.setAttribute('aria-expanded',open);});
-    nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');btn.setAttribute('aria-expanded','false');}));
-  </script>
-</body>
-</html>
+
+</body></html>
