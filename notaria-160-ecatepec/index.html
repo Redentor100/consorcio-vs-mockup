@@ -1,281 +1,200 @@
 <!DOCTYPE html>
 <html lang="es-MX">
 <head>
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <title>Notaría 160 Ecatepec · Andrés Carlos Viesca Urquiaga</title>
- <meta name="description" content="Notaría Pública 160 del Estado de México en Santa Clara Coatitla, Ecatepec. Escrituras, poderes y asesoría notarial. 3.6 en Google. Tel. 55 3640 3670.">
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Notary","name":"Notaría 160 Ecatepec","url":"https://redentor100.github.io/consorcio-vs-mockup/notaria-160-ecatepec/","telephone":"+525536403670","email":"aviesca@notarias160y201.com.mx","image":"https://redentor100.github.io/consorcio-vs-mockup/notaria-160-ecatepec/img/hero.jpg","address":{"@type":"PostalAddress","streetAddress":"Avenida Vía Morelos 419, despachos 51 y 52, Col. Santa Clara Coatitla","addressLocality":"Ecatepec de Morelos","postalCode":"55540","addressRegion":"Estado de México","addressCountry":"MX"},"geo":{"@type":"GeoCoordinates","latitude":19.540982,"longitude":-99.057964},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday"],"opens":"08:30","closes":"17:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"08:30","closes":"16:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"3.6","reviewCount":"75"}}
-  </script>
-  <style>
-    :root{--navy:#1B2A4A;--navy-d:#10192C;--gold:#C4A35A;--gold-d:#9A7A38;--cream:#F6F1E8;--paper:#FFFBF5;--ink:#1C1A16;--muted:#5C584F;--line:#E4D9C6}
-    *{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth}
-    body{font-family:Barlow,system-ui,sans-serif;color:var(--ink);background:var(--cream);line-height:1.65;font-size:1.05rem}
-    h1,h2,h3,.logo,.num{font-family:"Cormorant Garamond",Georgia,serif;line-height:1.15;font-weight:600}
-    a{color:var(--navy)}
-    img{max-width:100%;display:block}
-    .wrap{width:min(1120px,calc(100% - 32px));margin-inline:auto}
-    .skip{position:absolute;left:-999px;top:8px;background:#000;color:#fff;padding:8px 12px;z-index:40}
-    .skip:focus{left:8px}
-    .topbar{background:var(--navy-d);color:#efe7d6;font-size:.88rem;padding:8px 0;letter-spacing:.02em}
-    .topbar .wrap{display:flex;gap:18px;flex-wrap:wrap;justify-content:space-between}
-    .topbar a{color:#efe7d6;text-decoration:none}
-    header{position:sticky;top:0;z-index:30;background:rgba(246,241,232,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-    header .wrap{display:flex;align-items:center;justify-content:space-between;min-height:78px;gap:16px}
-    .logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--navy)}
-    .mark{width:46px;height:46px;border:1px solid var(--gold);display:grid;place-items:center;font-size:1.05rem;color:var(--navy-d);letter-spacing:.04em}
-    .logo small{display:block;font-family:Barlow,sans-serif;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
-    .logo b{font-size:1.35rem}
-    nav{display:flex;align-items:center;gap:22px}
-    nav a{text-decoration:none;color:var(--navy);font-weight:600;font-size:.95rem}
-    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 22px;font-weight:700;text-decoration:none;border:0;cursor:pointer;letter-spacing:.04em;text-transform:uppercase;font-size:.82rem;transition:.2s transform,.2s background}
-    .btn:hover{transform:translateY(-1px)}
-    .btn-gold{background:var(--gold);color:var(--navy-d)}
-    .btn-gold:hover{background:var(--gold-d);color:#fff}
-    .btn-navy{background:var(--navy);color:#fff}
-    .btn-ghost{background:transparent;color:var(--navy);box-shadow:inset 0 0 0 1px var(--navy)}
-    .menu-btn{display:none;background:none;border:0;font-size:1.6rem;cursor:pointer;color:var(--navy)}
-    .hero{display:grid;grid-template-columns:1.05fr .95fr;min-height:86vh;background:var(--paper)}
-    .hero-copy{padding:72px 8vw 72px max(24px, calc(50vw - 560px));display:flex;flex-direction:column;justify-content:center}
-    .kicker{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-d);font-weight:700;margin-bottom:16px}
-    .hero h1{font-size:clamp(2.4rem,5.4vw,4.4rem);color:var(--navy);margin-bottom:18px;max-width:16ch}
-    .hero p{max-width:42ch;color:var(--muted);margin-bottom:28px}
-    .cta-row{display:flex;flex-wrap:wrap;gap:12px}
-    .hero-photo{position:relative;min-height:420px}
-    .hero-photo img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
-    .hero-photo figcaption{position:absolute;left:16px;bottom:16px;background:rgba(16,25,44,.72);color:#fff;font-size:.78rem;padding:6px 10px}
-    .stats{background:var(--navy);color:#efe7d6;padding:28px 0}
-    .stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;text-align:center}
-    .stats b{display:block;font-family:"Cormorant Garamond",serif;font-size:2rem;color:var(--gold)}
-    .stats span{font-size:.88rem}
-    section{padding:88px 0}
-    h2{font-size:clamp(1.9rem,3.5vw,2.8rem);color:var(--navy);margin:8px 0 18px}
-    .lead{max-width:58ch;color:var(--muted);margin-bottom:32px}
-    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-    .card{background:var(--paper);border:1px solid var(--line);padding:26px 24px}
-    .card h3{font-size:1.45rem;color:var(--navy);margin-bottom:8px}
-    .split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
-    .split img{width:100%;height:420px;object-fit:cover}
-    .cap{font-size:.8rem;color:var(--muted);margin-top:8px}
-    .hours{background:var(--navy-d);color:#efe7d6}
-    .hours h2{color:#fff}
-    .hours table{width:100%;border-collapse:collapse;margin:18px 0}
-    .hours td{padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)}
-    .note{font-size:.92rem;color:#cfc6b4}
-    .revs{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-    blockquote{background:var(--paper);border-left:3px solid var(--gold);padding:22px 22px 18px}
-    blockquote p{font-family:"Cormorant Garamond",serif;font-size:1.25rem;font-style:italic;line-height:1.45}
-    blockquote small{display:block;margin-top:12px;color:var(--muted);font-size:.82rem}
-    details{border-bottom:1px solid var(--line);padding:14px 0}
-    summary{cursor:pointer;font-weight:700;color:var(--navy);list-style:none}
-    summary::-webkit-details-marker{display:none}
-    details p{margin-top:8px;color:var(--muted)}
-    .visita{display:grid;grid-template-columns:.9fr 1.1fr;gap:0;background:#fff}
-    .visita .info{padding:48px 36px;background:var(--paper)}
-    iframe{width:100%;min-height:420px;border:0;height:100%}
-    footer{background:var(--navy-d);color:#9aa3b5;text-align:center;padding:28px 16px;font-size:.9rem}
-    footer small{display:block;margin-top:6px;opacity:.8}
-    .wa{position:fixed;right:16px;bottom:16px;width:58px;height:58px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;text-decoration:none;font-size:1.5rem;z-index:30;box-shadow:0 8px 24px rgba(0,0,0,.25)}
-    @media(max-width:860px){
-      .menu-btn{display:block}
-      nav{display:none;flex-direction:column;align-items:flex-start;position:absolute;left:0;right:0;top:100%;background:var(--cream);padding:12px 20px 20px;border-bottom:1px solid var(--line);gap:12px}
-      nav.open{display:flex}
-      .hero,.split,.visita,.revs,.services,.stats .wrap{grid-template-columns:1fr}
-      .hero-copy{padding:48px 20px}
-      .hero-photo{min-height:52vh;position:relative}
-      .hero-photo img{position:relative;height:52vh}
-      section{padding:64px 0}
-    }
-  .wa svg{width:32px;height:32px;display:block}
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Notaría 160 Ecatepec · Andrés Carlos Viesca Urquiaga</title>
+<meta name="description" content="Notaría Pública 160 del Estado de México en Santa Clara Coatitla, Ecatepec. Escrituras, poderes y asesoría notarial. 3.6 en Google. Tel. 55 3640 3670.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Notary", "name": "Notaría 160 Ecatepec", "url": "https://redentor100.github.io/consorcio-vs-mockup/notaria-160-ecatepec/", "image": "https://redentor100.github.io/consorcio-vs-mockup/notaria-160-ecatepec/img/hero.jpg", "telephone": "+525536403670", "email": "aviesca@notarias160y201.com.mx", "address": {"@type": "PostalAddress", "streetAddress": "Avenida Vía Morelos 419, despachos 51 y 52, Col. Santa Clara Coatitla", "addressLocality": "Ecatepec de Morelos", "addressRegion": "Edo. Méx.", "postalCode": "55540", "addressCountry": "MX"}, "geo": {"@type": "GeoCoordinates", "latitude": 19.540982, "longitude": -99.057964}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "08:30", "closes": "17:30"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "08:30", "closes": "16:00"}], "aggregateRating": {"@type": "AggregateRating", "ratingValue": "3.6", "reviewCount": "75"}, "hasMap": "https://www.google.com/maps?q=19.540982,-99.057964"}</script>
+<style>
+:root{--p:#1B2A4A;--a:#C4A35A;--l:#FFFBF5;--d:#1C1A16}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;color:var(--d);line-height:1.65;background:#fff}
+h1,h2,h3,h4{font-family:'Poppins',sans-serif;line-height:1.15;font-weight:800}
+a{color:inherit}img{max-width:100%;display:block}
+.w{max-width:1180px;margin:auto;padding:0 20px}
+header{background:#fff;position:sticky;top:0;z-index:50;box-shadow:0 2px 12px rgba(0,0,0,.06)}
+.header-in{display:flex;align-items:center;gap:16px;min-height:68px;padding:10px 20px}
+.logo{font-family:'Poppins',sans-serif;font-weight:800;font-size:1.08rem;color:var(--p);text-decoration:none;line-height:1.2}
+.logo small{display:block;font-family:Inter,sans-serif;font-weight:600;font-size:.65rem;letter-spacing:.08em;text-transform:uppercase;color:#567}
+nav.main{margin-left:auto;display:flex;align-items:center;gap:2px;flex-wrap:wrap}
+nav.main a{text-decoration:none;font-weight:600;font-size:.92rem;padding:10px 12px;border-radius:8px;min-height:44px;display:inline-flex;align-items:center}
+nav.main a:hover{background:var(--l);color:var(--p)}
+.header-call{background:var(--a)!important;color:#fff!important;border-radius:10px;padding:9px 16px!important;margin-left:8px}
+.header-call:hover{filter:brightness(1.05)}
+@media(max-width:860px){nav.main a:not(.header-call){display:none}.logo small{display:none}}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 22px;border-radius:10px;font-weight:700;text-decoration:none;border:1px solid transparent;cursor:pointer;font-size:1rem;font-family:inherit;transition:transform .15s ease,background .15s ease}
+.btn:active{transform:scale(.98)}
+.btn svg{width:18px;height:18px;flex:none}
+.b1{background:var(--a);color:#fff}
+.b2{background:transparent;border-color:rgba(255,255,255,.55);color:#fff}
+.b3{background:transparent;border-color:var(--a);color:var(--d)}
+.b4{background:var(--p);color:#fff}
+.hero{background:linear-gradient(160deg,var(--p) 0%,color-mix(in srgb,var(--p) 80%,var(--d)) 100%);color:#fff;padding:56px 0 64px}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:7px 14px;font-size:.85rem;font-weight:600;margin-bottom:18px}
+.hero .stars{color:#f2b63d;letter-spacing:1px}
+.hero h1{font-size:clamp(1.9rem,4.6vw,3.1rem);margin-bottom:14px;max-width:18em}
+.hero-lead{font-size:1.08rem;color:rgba(255,255,255,.9);max-width:36em;margin-bottom:26px}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.hero-points{display:flex;gap:18px;flex-wrap:wrap;font-size:.92rem;color:rgba(255,255,255,.88)}
+.hero-points span{display:inline-flex;align-items:center;gap:7px}
+.hero-photo{position:relative}
+.hero-photo img{width:100%;height:480px;object-fit:cover;object-position:center;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,.25)}
+.rating-card{position:absolute;left:-14px;bottom:22px;background:#fff;color:var(--d);border-radius:14px;box-shadow:0 16px 36px rgba(0,0,0,.22);padding:14px 18px;display:flex;align-items:center;gap:14px;max-width:calc(100% - 16px)}
+.rating-card .score{font-family:'Poppins',sans-serif;font-size:2.2rem;line-height:1;color:var(--p);font-weight:800}
+.rating-card .rc-stars{color:#f2b63d;letter-spacing:1px}
+.rating-card p{font-size:.85rem;color:#567;line-height:1.4}
+@media(max-width:920px){.hero-grid{grid-template-columns:1fr}.hero-photo img{height:360px}.rating-card{left:12px}}
+.trust{background:var(--l);padding:36px 0}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;text-align:center}
+.trust-item strong{display:block;font-family:'Poppins',sans-serif;font-size:1.6rem;color:var(--p);font-weight:800}
+.trust-item span{display:block;font-size:.88rem;color:#567;margin-top:4px}
+@media(max-width:720px){.trust-grid{grid-template-columns:1fr 1fr}}
+section{padding:72px 0}
+.sec-head{margin-bottom:28px}
+.rule{width:44px;height:3px;background:var(--a);border-radius:2px;margin-bottom:14px}
+h2{font-size:clamp(1.7rem,3vw,2.1rem);color:var(--p);margin-bottom:10px}
+.sub{color:#567;max-width:40em}
+.alt{background:var(--l)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.serv-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+.serv-card,.card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 8px 22px rgba(20,32,43,.07);border:1px solid #eee}
+.serv-card img{width:100%;height:200px;object-fit:cover}
+.serv-body,.card-body{padding:22px 22px 24px}
+.serv-tag{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--a);margin-bottom:6px}
+.serv-card h3,.card h3{margin:6px 0 8px;color:var(--d);font-size:1.2rem}
+.serv-list{list-style:none;margin:12px 0 18px}
+.serv-list li{padding:5px 0 5px 1.3em;position:relative}
+.serv-list li:before{content:"✓";position:absolute;left:0;color:var(--a);font-weight:700}
+.card{padding:0}
+.card.pad,.rev-card,.why-card{padding:24px}
+.card .i{font-size:2rem;padding:22px 22px 0}
+.card h3{padding:0 22px}
+.card>p,.card .txt{padding:0 22px 22px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+@media(max-width:820px){.about{grid-template-columns:1fr}}
+.about img{width:100%;height:360px;object-fit:cover;border-radius:18px}
+.checks{margin-top:12px;color:var(--d)}
+.st{color:#f5a623;letter-spacing:1px}
+.rev-meta{display:block;margin-top:10px;font-size:.88rem;color:#567;font-weight:600}
+.rev-summary{background:#fff;border-radius:16px;box-shadow:0 8px 22px rgba(20,32,43,.07);padding:22px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-bottom:22px}
+.rev-summary .big{font-family:'Poppins',sans-serif;font-size:3rem;line-height:1;color:var(--p);font-weight:800}
+.fw{max-width:860px;margin:auto;padding:0 20px}
+#faq h2,#faq .sub{text-align:center}
+.fq{background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:0 4px 14px rgba(0,0,0,.06);border-left:4px solid var(--a)}
+.fq summary{cursor:pointer;padding:18px 48px 18px 20px;font-weight:600;list-style:none;position:relative}
+.fq summary::-webkit-details-marker{display:none}
+.fq summary:after{content:"+";position:absolute;right:20px;top:50%;transform:translateY(-50%);font-size:1.5rem;color:var(--a)}
+.fq[open] summary:after{content:"–"}
+.fq p{padding:0 20px 18px;color:#445}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+@media(max-width:920px){.contact-grid{grid-template-columns:1fr}}
+.info-card{background:var(--l);border-radius:16px;padding:8px 22px}
+.info-row{display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #e6e6e6}
+.info-row:last-child{border-bottom:0}
+.info-row svg{width:22px;height:22px;flex:none;color:var(--a);margin-top:2px}
+.info-row h3{font-size:.95rem;margin-bottom:4px;color:var(--p)}
+.map-box{margin-top:16px}
+iframe{width:100%;height:280px;border:0;border-radius:14px}
+.consulta{background:var(--l);border-radius:16px;padding:26px}
+.consulta h3{margin-bottom:6px}
+.field{margin:14px 0}
+.field label{display:block;font-weight:600;font-size:.9rem;margin-bottom:6px}
+.field input,.field select,.field textarea{width:100%;padding:12px 14px;border:1px solid #d8d8d8;border-radius:10px;font:inherit;background:#fff;color:var(--d)}
+.field textarea{min-height:110px;resize:vertical}
+.form-note{font-size:.85rem;color:#567;margin-top:12px;text-align:center}
+.cta{background:var(--p);color:#fff;text-align:center}
+.cta h2{color:#fff}.cta .sub{color:#eef;margin:0 auto 22px}
+footer{background:var(--d);color:#c5d0d8;padding:40px 0 22px;font-size:.92rem}
+.foot-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:22px}
+@media(max-width:720px){.foot-grid{grid-template-columns:1fr}}
+.foot-grid strong{display:block;color:#fff;margin-bottom:8px;font-family:'Poppins',sans-serif}
+.foot-grid a{color:#c5d0d8;text-decoration:none}
+.foot-grid a:hover{color:#fff}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.12);padding-top:16px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:.85rem;color:#9ab}
+.wa{position:fixed;right:18px;bottom:18px;background:#25d366;color:#fff;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.3);z-index:60}
+.wa svg{width:32px;height:32px}
+.share-toast{position:fixed;left:50%;bottom:92px;transform:translateX(-50%) translateY(8px);z-index:61;background:var(--d);color:#fff;font-size:.9rem;padding:12px 18px;border-radius:10px;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s}
+.share-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.note{margin-top:16px;font-size:.9rem}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}.share-toast{transition:none}}
 </style>
 </head>
 <body>
- <a class="skip" href="#inicio">Saltar al contenido</a>
- <div class="topbar"><div class="wrap">
- <span>Santa Clara Coatitla, Ecatepec de Morelos, C.P. 55540</span>
- <span>Lun–jue 8:30–17:30 · Vie 8:30–16:00 · <a href="tel:+525536403670">55 3640 3670</a></span>
- </div></div>
- <header>
- <div class="wrap">
- <a class="logo" href="#inicio"><span class="mark">160</span><span><small>Notaría pública</small><b>Notaría 160</b></span></a>
- <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú">☰</button>
- <nav id="nav">
- <a href="#servicios">Servicios</a>
- <a href="#despacho">El despacho</a>
- <a href="#resenas">Reseñas</a>
- <a href="#faq">Preguntas</a>
- <a href="#visita">Ubicación</a>
- <a class="btn btn-gold" href="https://wa.me/525536403670?text=Hola%2C%20quiero%20informes%20de%20la%20Notar%C3%ADa%20160">Agendar</a>
- </nav>
- </div>
- </header>
- <main>
- <section class="hero" id="inicio" style="padding:0">
- <div class="hero-copy">
- <p class="kicker">Estado de México · Ecatepec</p>
- <h1>Certeza jurídica para tus actos y bienes</h1>
- <p>Notaría Pública 160, a cargo del licenciado Andrés Carlos Viesca Urquiaga. En 2023 se anunció su asociación con la Notaría 201, del maestro Luis Gerardo de la Peña Gutiérrez.</p>
- <div class="cta-row">
- <a class="btn btn-gold" href="https://wa.me/525536403670?text=Hola%2C%20quiero%20informes%20de%20la%20Notar%C3%ADa%20160">Escribir por WhatsApp</a>
- <a class="btn btn-ghost" href="tel:+525536403670">Llamar al 55 3640 3670</a>
- </div>
- </div>
- <figure class="hero-photo">
- <img src="img/hero.jpg" alt="Columnas de un edificio clásico, fotografía de stock; no es la fachada de esta notaría">
- <figcaption>Foto de stock · no es el inmueble de la notaría</figcaption>
- </figure>
- </section>
- <div class="stats"><div class="wrap">
- <div><b>3.6 ★</b><span>Calificación en Google</span></div>
- <div><b>75</b><span>Reseñas en el listado de Maps</span></div>
- <div><b>160</b><span>Notaría del Estado de México</span></div>
- <div><b>201</b><span>Asociada, según gaceta oficial</span></div>
- </div></div>
- <section id="servicios">
- <div class="wrap">
- <p class="kicker">Servicios</p>
- <h2>Servicios</h2>
- <p class="lead">No publicamos un menú oficial de servicios.</p>
- <div class="services">
- <article class="card"><h3>Inmuebles</h3><p>Compraventa, donación y escrituración.</p></article>
- <article class="card"><h3>Poderes y actas</h3><p>Poderes notariales, testimonios y ratificaciones.</p></article>
- <article class="card"><h3>Sucesiones y testamentos</h3><p>Son trámites habituales en notarías del estado. Pregunta si este despacho puede llevar el tuyo y qué documentos debes llevar.</p></article>
- </div>
- </div>
- </section>
- <section id="despacho" style="background:#fff">
- <div class="wrap split">
- <div>
- <img src="img/firma.jpg" alt="Persona firmando documentos sobre un escritorio, foto de stock">
- <p class="cap">Foto de stock; no corresponde al personal ni a las oficinas de la notaría.</p>
- </div>
- <div>
- <p class="kicker">El despacho</p>
- <h2>Dos notarías asociadas en Santa Clara Coatitla</h2>
- <p class="lead">La Gaceta de Gobierno del 16 de febrero de 2023 informa el inicio de la asociación entre la Notaría 160 y la 201, con oficinas en Avenida Vía Morelos 419, despachos 51 y 52, y teléfonos 55 3640 3670 al 99.</p>
- <p class="lead">Directorios posteriores citan a veces Vía Morelos 421, despacho 32, o «México 85 160», que es el número de la carretera en el mismo corredor. En las preguntas frecuentes aclaramos esas diferencias.</p>
- </div>
- </div>
- </section>
- <section class="hours" id="horario">
- <div class="wrap" style="display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center">
- <div>
- <p class="kicker" style="color:var(--gold)">Horario publicado</p>
- <h2>Del aviso oficial de 2023</h2>
- <table>
- <tr><td>Lunes a jueves</td><td>8:30 – 17:30</td></tr>
- <tr><td>Viernes</td><td>8:30 – 16:00</td></tr>
- <tr><td>Sábado y domingo</td><td>Cerrado</td></tr>
- </table>
- <p class="note">Fichas de Google y de directorios suelen mostrar un horario más corto (9:00 a 17:00, viernes hasta las 15:00).</p>
- </div>
- <img src="img/acuerdo.jpg" alt="Apretón de manos en un entorno de oficina, foto de stock" style="width:100%;height:340px;object-fit:cover">
- </div>
- </section>
- <section id="resenas">
- <div class="wrap">
- <h2>Reseñas</h2>
- <p class="lead">La calificación es de 3.6 de 5, con alrededor de 70 a 75 opiniones.</p>
- <div class="revs">
- <blockquote><p>“Son la mejor notaria. Me ayudaron en una donación de un inmueble, y todo fue super rápido. Además, te explican ventajas y desventajas de cada operación… Total agradecimiento al licenciado Zamir Pichardo.”</p><small>Reseña en Google · diciembre de 2025 · 5 estrellas</small></blockquote>
- <blockquote><p>“Excelente servicio y amabilidad del Lic. Zamir todo claro y transparente con su información e indicaciones.”</p><small>Reseña en Google · diciembre de 2025 · 5 estrellas</small></blockquote>
- <blockquote><p>“Pésima atención telefónica. Hablas para preguntar algo simple y las que atienden no saben ni que decirte.”</p><small>Reseña en Google · enero de 2026 · 1 estrella</small></blockquote>
- <blockquote><p>“La peor notaria, la licenciada Erika Bautista es una persona muy prepotente y con muy poca empata hacia las personas mayores. No entregan los documentos en el tiempo que se estipula y no contestan los correos.”</p><small>Reseña en Google · febrero de 2026 · 1 estrella</small></blockquote>
- </div>
- </div>
- </section>
- <p class="lead"><a href="https://www.google.com/maps?q=19.540982,-99.057964">Ver en Google Maps →</a></p>
-<section id="faq" style="background:#fff">
- <div class="wrap" style="max-width:800px">
- <p class="kicker">Antes de ir</p>
- <h2>Preguntas frecuentes</h2>
- <details open><summary>¿Cuál es el horario?</summary>
- <p>Lunes a jueves de 8:30 a 17:30 y viernes de 8:30 a 16:00.</p>
- </details>
- <details><summary>¿Dónde está exactamente la oficina?</summary>
- <p>Avenida Vía Morelos 419, despachos 51 y 52, colonia Santa Clara Coatitla, C.P. 55540, Ecatepec de Morelos.</p>
- </details>
- <details><summary>¿Quién es el notario titular?</summary><p>Andrés Carlos Viesca Urquiaga es el titular de la 160. En 2023 se asoció con Luis Gerardo de la Peña Gutiérrez, titular de la 201, ambos con residencia en Ecatepec.</p></details>
- <details><summary>¿Qué teléfonos y correos están publicados?</summary><p>Tel. 55 3640 3670. Correos: aviesca@notarias160y201.com.mx, lgpena@notarias160y201.com.mx y eviesca@notaria160.com.mx.</p></details>
- <details><summary>¿Cómo pido informes?</summary><p>Llama o escribe por WhatsApp al 55 3640 3670. Lleva una identificación oficial y, si ya tienes un expediente, el número o los datos del trámite.</p></details>
- </div>
- </section>
- <section id="visita" style="padding:0">
- <div class="visita">
- <div class="info">
- <p class="kicker">Cómo llegar</p>
- <h2>Vía Morelos, Santa Clara Coatitla</h2>
- <p>Avenida Vía Morelos 419, despachos 51 y 52 (dato oficial de 2023).<br>Col. Santa Clara Coatitla, Ecatepec de Morelos, C.P. 55540.</p>
- <p style="margin:14px 0"><a href="tel:+525536403670">55 3640 3670</a></p>
- <div class="cta-row">
- <a class="btn btn-navy" href="https://wa.me/525536403670?text=Hola%2C%20quiero%20informes%20de%20la%20Notar%C3%ADa%20160">WhatsApp</a>
- <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&destination=19.540982,-99.057964">Cómo llegar</a>
- </div>
- </div>
- <iframe loading="lazy" title="Mapa de la Notaría 160 en Ecatepec" src="https://maps.google.com/maps?q=19.540982,-99.057964&z=16&output=embed"></iframe>
- </div>
- </section>
- </main>
- <footer>© 2026 Notaría 160 del Estado de México · Ecatepec de Morelos
-\1
- <a class="wa" href="https://wa.me/525536403670?text=Hola%2C%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M17.47 14.38c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.13-.42-2.16-1.33-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.42.12-.55.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.29s.99 2.65 1.13 2.83c.14.18 1.95 2.98 4.73 4.18 1.76.76 2.11.61 2.49.57.38-.04 1.6-.65 1.83-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32zM12.04 21.8h-.01c-1.81 0-3.6-.49-5.16-1.41L3.4 21.2l.83-3.39A10.02 10.02 0 0 1 1.96 12C1.96 6.48 6.45 2 12.03 2c2.67 0 5.18 1.04 7.07 2.93A9.92 9.92 0 0 1 22.1 12c0 5.52-4.49 10-10.06 10zM20.52 3.45A11.9 11.9 0 0 0 12.03 0C5.35 0 .04 5.3.04 11.96c0 2.11.55 4.17 1.6 5.99L0 24l6.19-1.62A12.04 12.04 0 0 0 12.03 24h.01C18.7 24 24 18.7 24 12.04c0-3.2-1.25-6.21-3.48-8.59z"/></svg></a>
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "¿Cuál es el horario?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Lunes a jueves de 8:30 a 17:30 y viernes de 8:30 a 16:00."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "¿Dónde está exactamente la oficina?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Avenida Vía Morelos 419, despachos 51 y 52, colonia Santa Clara Coatitla, C.P. 55540, Ecatepec de Morelos."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "¿Quién es el notario titular?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Andrés Carlos Viesca Urquiaga es el titular de la 160. En 2023 se asoció con Luis Gerardo de la Peña Gutiérrez, titular de la 201, ambos con residencia en Ecatepec."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "¿Qué teléfonos y correos están publicados?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Tel. 55 3640 3670. Correos: aviesca@notarias160y201.com.mx, lgpena@notarias160y201.com.mx y eviesca@notaria160.com.mx."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "¿Cómo pido informes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Llama o escribe por WhatsApp al 55 3640 3670. Lleva una identificación oficial y, si ya tienes un expediente, el número o los datos del trámite."
-      }
-    }
-  ]
-}
+<header><div class="w header-in"><a class="logo" href="#inicio">160 Notaría 160<small>Notaría pública</small></a>
+<nav class="main"><a href="#servicios">Servicios</a><a href="#nosotros">Nosotros</a><a href="#resenas">Reseñas</a><a href="#faq">Preguntas</a><a href="#contacto">Contacto</a><a class="header-call" href="tel:+525536403670">55 3640 3670</a></nav></div></header>
+<div class="hero" id="inicio"><div class="w hero-grid"><div>
+<span class="hero-eyebrow"><span class="stars" aria-hidden="true">★★★★★</span> 3.6 en Google · 75 reseñas</span>
+<h1>Certeza jurídica para tus actos y bienes</h1>
+<p class="hero-lead">Notaría Pública 160, a cargo del licenciado Andrés Carlos Viesca Urquiaga. En 2023 se anunció su asociación con la Notaría 201, del maestro Luis Gerardo de la Peña Gutiérrez.</p>
+<div class="hero-ctas"><a class="btn b1" href="https://wa.me/525536403670?text=Hola%2C%20quiero%20informes%20de%20la%20Notar%C3%ADa%20160" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.2 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.33 1.9.61 2.8a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.28 1.84.48 2.8.61A2 2 0 0 1 22 16.9z"/></svg> WhatsApp: 55 3640 3670</a><a class="btn b2" href="tel:+525536403670">Llamar</a><button type="button" class="btn b2" data-share>Compartir este sitio</button></div>
+
+</div>
+<div class="hero-photo"><img src="img/hero.jpg" alt="Columnas de un edificio clásico, fotografía de stock; no es la fachada de esta notaría"><div class="rating-card" aria-label="Calificación en Google: 3.6 de 5, con 75 reseñas"><span class="score">3.6</span><div><span class="rc-stars" aria-hidden="true">★★★★★</span><p><strong>75 reseñas en Google</strong></p></div></div></div>
+</div></div>
+<div class="trust"><div class="w trust-grid"><div class="trust-item"><strong>3.6 ★</strong><span>Calificación en Google</span></div><div class="trust-item"><strong>75</strong><span>Reseñas de clientes</span></div></div></div>
+<section id="servicios"><div class="w"><div class="sec-head"><div class="rule"></div><h2>Servicios</h2><p class="sub"></p></div><div class="serv-grid"><article class="serv-card"><img src="img/acuerdo.jpg" alt="" loading="lazy"><div class="serv-body"><h3>Inmuebles</h3><p>Compraventa, donación y escrituración.</p><a class="btn b3" href="#contacto">Consultar</a></div></article><article class="serv-card"><img src="img/biblioteca.jpg" alt="" loading="lazy"><div class="serv-body"><h3>Poderes y actas</h3><p>Poderes notariales, testimonios y ratificaciones.</p><a class="btn b3" href="#contacto">Consultar</a></div></article><article class="serv-card"><img src="img/inmueble.jpg" alt="" loading="lazy"><div class="serv-body"><h3>Sucesiones y testamentos</h3><p>Son trámites habituales en notarías del estado. Pregunta si este despacho puede llevar el tuyo y qué documentos debes llevar.</p><a class="btn b3" href="#contacto">Consultar</a></div></article></div></div></section>
+<section id="nosotros" class="alt"><div class="w about"><img src="img/firma.jpg" alt="Persona firmando documentos sobre un escritorio, foto de stock" loading="lazy"><div><div class="sec-head"><div class="rule"></div><h2>Dos notarías asociadas en Santa Clara Coatitla</h2></div><p class="sub">Foto de stock; no corresponde al personal ni a las oficinas de la notaría.</p><p>El despacho</p><p>La Gaceta de Gobierno del 16 de febrero de 2023 informa el inicio de la asociación entre la Notaría 160 y la 201, con oficinas en Avenida Vía Morelos 419, despachos 51 y 52, y teléfonos 55 3640 3670 al 99.</p><p>Directorios posteriores citan a veces Vía Morelos 421, despacho 32, o «México 85 160», que es el número de la carretera en el mismo corredor. En las preguntas frecuentes aclaramos esas diferencias.</p></div></div></section>
+<section id="resenas"><div class="w"><div class="sec-head"><div class="rule"></div><h2>Reseñas</h2></div><div class="rev-summary"><div style="display:flex;align-items:center;gap:16px"><span class="big">3.6</span><div><span class="st">★★★★★</span><p>75 reseñas en Google</p></div></div><a class="btn b4" href="https://www.google.com/maps?q=19.540982,-99.057964" target="_blank" rel="noopener">Ver opiniones en Google Maps</a></div><div class="grid"><div class="card pad"><p class="st">★★★★★</p><p>“Son la mejor notaria. Me ayudaron en una donación de un inmueble, y todo fue super rápido. Además, te explican ventajas y desventajas de cada operación… Total agradecimiento al licenciado Zamir Pichardo.”</p><span class="rev-meta">Google</span></div><div class="card pad"><p class="st">★★★★★</p><p>“Excelente servicio y amabilidad del Lic. Zamir todo claro y transparente con su información e indicaciones.”</p><span class="rev-meta">Google</span></div><div class="card pad"><p class="st">★★★★★</p><p>“Pésima atención telefónica. Hablas para preguntar algo simple y las que atienden no saben ni que decirte.”</p><span class="rev-meta">Google</span></div><div class="card pad"><p class="st">★★★★★</p><p>“La peor notaria, la licenciada Erika Bautista es una persona muy prepotente y con muy poca empata hacia las personas mayores. No entregan los documentos en el tiempo que se estipula y no contestan los correos.”</p><span class="rev-meta">Google</span></div></div></div></section>
+<section id="faq" class="alt"><div class="fw"><div class="sec-head"><div class="rule" style="margin:0 auto 14px"></div><h2>Preguntas frecuentes</h2><p class="sub">Antes de ir</p></div><details class="fq"><summary>¿Cuál es el horario?</summary><p>Lunes a jueves de 8:30 a 17:30 y viernes de 8:30 a 16:00.</p></details><details class="fq"><summary>¿Dónde está exactamente la oficina?</summary><p>Avenida Vía Morelos 419, despachos 51 y 52, colonia Santa Clara Coatitla, C.P. 55540, Ecatepec de Morelos.</p></details><details class="fq"><summary>¿Quién es el notario titular?</summary><p>Andrés Carlos Viesca Urquiaga es el titular de la 160. En 2023 se asoció con Luis Gerardo de la Peña Gutiérrez, titular de la 201, ambos con residencia en Ecatepec.</p></details><details class="fq"><summary>¿Qué teléfonos y correos están publicados?</summary><p>Tel. 55 3640 3670. Correos: aviesca@notarias160y201.com.mx, lgpena@notarias160y201.com.mx y eviesca@notaria160.com.mx.</p></details><details class="fq"><summary>¿Cómo pido informes?</summary><p>Llama o escribe por WhatsApp al 55 3640 3670. Lleva una identificación oficial y, si ya tienes un expediente, el número o los datos del trámite.</p></details></div><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Cuál es el horario?", "acceptedAnswer": {"@type": "Answer", "text": "Lunes a jueves de 8:30 a 17:30 y viernes de 8:30 a 16:00."}}, {"@type": "Question", "name": "¿Dónde está exactamente la oficina?", "acceptedAnswer": {"@type": "Answer", "text": "Avenida Vía Morelos 419, despachos 51 y 52, colonia Santa Clara Coatitla, C.P. 55540, Ecatepec de Morelos."}}, {"@type": "Question", "name": "¿Quién es el notario titular?", "acceptedAnswer": {"@type": "Answer", "text": "Andrés Carlos Viesca Urquiaga es el titular de la 160. En 2023 se asoció con Luis Gerardo de la Peña Gutiérrez, titular de la 201, ambos con residencia en Ecatepec."}}, {"@type": "Question", "name": "¿Qué teléfonos y correos están publicados?", "acceptedAnswer": {"@type": "Answer", "text": "Tel. 55 3640 3670. Correos: aviesca@notarias160y201.com.mx, lgpena@notarias160y201.com.mx y eviesca@notaria160.com.mx."}}, {"@type": "Question", "name": "¿Cómo pido informes?", "acceptedAnswer": {"@type": "Answer", "text": "Llama o escribe por WhatsApp al 55 3640 3670. Lleva una identificación oficial y, si ya tienes un expediente, el número o los datos del trámite."}}]}</script></section>
+<section id="contacto"><div class="w">
+<div class="sec-head"><div class="rule"></div><h2>Contacto y ubicación</h2>
+<p class="sub">Visítanos o escríbenos. Estamos para atenderte.</p></div>
+<div class="contact-grid"><div><div class="info-card"><div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.2 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.33 1.9.61 2.8a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.28 1.84.48 2.8.61A2 2 0 0 1 22 16.9z"/></svg><div><h3>Teléfono</h3><p><a href="tel:+525536403670">55 3640 3670</a></p></div></div><div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-7.2 7-12a7 7 0 1 0-14 0c0 4.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.2"/></svg><div><h3>Dirección</h3><p>Avenida Vía Morelos 419, despachos 51 y 52, Col. Santa Clara Coatitla</p></div></div><div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><h3>Horario</h3><p>Lunes a Jueves: 8:30 – 17:30 · Viernes: 8:30 – 16:00 · Sábado a Domingo: Cerrado</p></div></div><div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg><div><h3>Correo</h3><p><a href="mailto:aviesca@notarias160y201.com.mx">aviesca@notarias160y201.com.mx</a></p></div></div></div><div class="map-box"><iframe loading="lazy" src="https://maps.google.com/maps?q=19.540982,-99.057964&z=16&output=embed" title="Mapa de Notaría 160 Ecatepec"></iframe></div><p class="note"><a href="https://www.google.com/maps?q=19.540982,-99.057964" target="_blank" rel="noopener">Abrir en Google Maps y ver cómo llegar →</a></p></div>
+<form class="consulta" id="consultaForm" data-wa="https://wa.me/525536403670?text=">
+<h3>Solicita información</h3>
+<p class="sub">Completa el formulario y te armamos el mensaje para WhatsApp.</p>
+<div class="field"><label for="f-nombre">Tu nombre</label><input id="f-nombre" name="nombre" required autocomplete="name"></div>
+<div class="field"><label for="f-area">¿Qué necesitas?</label><select id="f-area" name="area"><option>Inmuebles</option><option>Poderes y actas</option><option>Sucesiones y testamentos</option><option>Otra información</option></select></div>
+<div class="field"><label for="f-mensaje">Cuéntanos tu caso</label><textarea id="f-mensaje" name="mensaje" required placeholder="Describe brevemente lo que necesitas…"></textarea></div>
+<button type="submit" class="btn b4">Enviar por WhatsApp</button>
+<p class="form-note">Se abrirá WhatsApp con tu mensaje listo para enviar.</p>
+</form>
+</div></div></section>
+<section class="cta"><div class="w"><h2>Contáctanos</h2><p class="sub">Escríbenos por WhatsApp o llámanos. Estamos para atenderte.</p><a class="btn b1" href="https://wa.me/525536403670?text=Hola%2C%20quiero%20informes%20de%20la%20Notar%C3%ADa%20160" target="_blank" rel="noopener">Agendar por WhatsApp</a></div></section>
+<footer><div class="w"><div class="foot-grid">
+<div><strong>Notaría 160 Ecatepec</strong><p>Foto de stock; no corresponde al personal ni a las oficinas de la notaría.</p></div>
+<div><strong>Contacto</strong><p>55 3640 3670<br>Avenida Vía Morelos 419, despachos 51 y 52, Col. Santa Clara Coatitla</p></div>
+<div><strong>Enlaces</strong><p>
+<a href=#servicios>Servicios</a> · <a href="#resenas">Reseñas</a> · <a href="#contacto">Contacto</a>
+<br><a href="https://www.google.com/maps?q=19.540982,-99.057964" target=_blank rel=noopener>Ver en Google Maps</a>
+</p></div></div>
+<div class="foot-bottom"><span>© 2026 Notaría 160 Ecatepec · Ecatepec de Morelos</span><span>★ 3.6 en Google · 75 reseñas</span></div>
+</div></footer>
+<a class="wa" href="https://wa.me/525536403670?text=Hola%2C%20quiero%20informes%20de%20la%20Notar%C3%ADa%20160" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M17.47 14.38c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.13-.42-2.16-1.33-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.42.12-.55.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.29s.99 2.65 1.13 2.83c.14.18 1.95 2.98 4.73 4.18 1.76.76 2.11.61 2.49.57.38-.04 1.6-.65 1.83-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32zM12.04 21.8h-.01c-1.81 0-3.6-.49-5.16-1.41L3.4 21.2l.83-3.39A10.02 10.02 0 0 1 1.96 12C1.96 6.48 6.45 2 12.03 2c2.67 0 5.18 1.04 7.07 2.93A9.92 9.92 0 0 1 22.1 12c0 5.52-4.49 10-10.06 10zM20.52 3.45A11.9 11.9 0 0 0 12.03 0C5.35 0 .04 5.3.04 11.96c0 2.11.55 4.17 1.6 5.99L0 24l6.19-1.62A12.04 12.04 0 0 0 12.03 24h.01C18.7 24 24 18.7 24 12.04c0-3.2-1.25-6.21-3.48-8.59z"/></svg></a>
+<div id="shareToast" class="share-toast" role="status">Enlace copiado. Ya puedes compartirlo donde quieras.</div>
+
+<script>
+(function(){
+  var toast=document.getElementById('shareToast');
+  var tmr=null;
+  function showToast(msg){ if(!toast)return; if(msg)toast.textContent=msg; toast.classList.add('show'); clearTimeout(tmr); tmr=setTimeout(function(){toast.classList.remove('show');},4200); }
+  function copyLink(url){
+    if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(function(){showToast();}).catch(function(){showToast('Copia este enlace: '+url);}); }
+    else { showToast('Copia este enlace: '+url); }
+  }
+  function shareSite(){
+    var data={title:document.title,text:document.title,url:location.href};
+    if(navigator.share){ navigator.share(data).catch(function(err){ if(!err||err.name!=='AbortError') copyLink(data.url); }); }
+    else copyLink(data.url);
+  }
+  document.querySelectorAll('[data-share]').forEach(function(b){ b.addEventListener('click', shareSite); });
+  var form=document.getElementById('consultaForm');
+  if(form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      var nombre=(document.getElementById('f-nombre').value||'').trim();
+      var area=(document.getElementById('f-area')||{}).value||'';
+      var mensaje=(document.getElementById('f-mensaje').value||'').trim();
+      var texto='Hola, soy '+nombre+'. Necesito ayuda con: '+area+'.\n\n'+mensaje;
+      var base=form.getAttribute('data-wa')||'';
+      if(base){ location.href=base+encodeURIComponent(texto); }
+    });
+  }
+})();
 </script>
-  <script>
-    const btn=document.getElementById('menuBtn'), nav=document.getElementById('nav');
-    btn.addEventListener('click',()=>{const open=nav.classList.toggle('open');btn.setAttribute('aria-expanded',open);});
-    nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');btn.setAttribute('aria-expanded','false');}));
-  </script>
-</body>
-</html>
+
+</body></html>
